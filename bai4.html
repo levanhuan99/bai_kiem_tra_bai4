@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+//hàm tính tổng đường chéo chính
+    function sum(arr) {
+        let x=0;
+        for (let i=0;i<arr.length;i++){
+            x+=arr[i][i];
+        }
+        return x;
+    }
+    let matrix=[
+        [2,5,7],
+        [4,7,9],
+        [3,5,7]
+    ];
+    let caculate=sum(matrix);
+    document.write(caculate);
+
+</script>
+</body>
+</html>
